@@ -1,0 +1,13 @@
+name: SpearMace
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  spearmace:
+    description: Gives the combined blue SpearMace.
+    usage: /spearmace give [player]
+    permission: spearmace.give
+permissions:
+  spearmace.give:
+    description: Allows a player to receive the SpearMace.
+    default: op
