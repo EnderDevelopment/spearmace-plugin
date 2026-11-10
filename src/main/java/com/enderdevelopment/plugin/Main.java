@@ -82,7 +82,8 @@ public final class Main extends JavaPlugin implements Listener {
         if (meta == null) return item;
         meta.displayName(Component.text("SpearMace", NamedTextColor.BLUE));
         meta.lore(java.util.List.of(
-                Component.text("Breeze-forged spear with a mace head", NamedTextColor.DARK_BLUE),
+                Component.text("Blue spearhead on a long Breeze Rod shaft", NamedTextColor.DARK_BLUE),
+                Component.text("Spear-shaped design with mace smash attacks", NamedTextColor.GRAY),
                 Component.text("Swap hands or right-click to launch upward", NamedTextColor.GRAY)));
         meta.getPersistentDataContainer().set(weaponKey, PersistentDataType.BYTE, (byte) 1);
         addEnchantment(meta, "wind_burst", 3);
